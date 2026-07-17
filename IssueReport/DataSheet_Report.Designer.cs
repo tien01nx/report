@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.Job
+﻿namespace QualityControlSystem_Ver2._0.Job
 {
     partial class DataSheet_Report
     {
@@ -592,7 +592,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // ChangingpointFAtren
             // 
-            this.ChangingpointFAtren.Condition = "Contains([changingpoint], \'Gh tr�n FA\')";
+            this.ChangingpointFAtren.Condition = "Contains([changingpoint], \'Gh trên FA\')";
             // 
             // 
             // 
@@ -837,7 +837,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell9.StylePriority.UseFont = false;
             this.xrTableCell9.StylePriority.UseForeColor = false;
             this.xrTableCell9.StylePriority.UseTextAlignment = false;
-            this.xrTableCell9.Text = "Address (V? tr� b?n v?)";
+            this.xrTableCell9.Text = "Address (Vị trí b?n v?)";
             this.xrTableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell9.Weight = 6.7985077853994849D;
             // 
@@ -856,7 +856,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell11.StylePriority.UseFont = false;
             this.xrTableCell11.StylePriority.UseForeColor = false;
             this.xrTableCell11.StylePriority.UseTextAlignment = false;
-            this.xrTableCell11.Text = "SPECIFICATION (K�ch thu?c danh nghia)";
+            this.xrTableCell11.Text = "SPECIFICATION (Kích thước danh nghĩa)";
             this.xrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell11.Weight = 10.029651649203341D;
             // 
@@ -894,7 +894,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell15.StylePriority.UseFont = false;
             this.xrTableCell15.StylePriority.UseForeColor = false;
             this.xrTableCell15.StylePriority.UseTextAlignment = false;
-            this.xrTableCell15.Text = "UPPER LIMIT (Gi?i h?n tr�n)";
+            this.xrTableCell15.Text = "UPPER LIMIT (Giới hạn trên)";
             this.xrTableCell15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell15.Weight = 6.7642639265141158D;
             // 
@@ -932,7 +932,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell19.StylePriority.UseFont = false;
             this.xrTableCell19.StylePriority.UseForeColor = false;
             this.xrTableCell19.StylePriority.UseTextAlignment = false;
-            this.xrTableCell19.Text = "POSITION (V? tr�)";
+            this.xrTableCell19.Text = "POSITION (Vị trí)";
             this.xrTableCell19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell19.Weight = 13.454176225800381D;
             // 
@@ -989,7 +989,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell25.StylePriority.UseFont = false;
             this.xrTableCell25.StylePriority.UseForeColor = false;
             this.xrTableCell25.StylePriority.UseTextAlignment = false;
-            this.xrTableCell25.Text = "Judg (��nh gi�)";
+            this.xrTableCell25.Text = "Judg (Đánh giá)";
             this.xrTableCell25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell25.Weight = 6.8035561753113694D;
             // 
@@ -1103,7 +1103,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel15.SizeF = new System.Drawing.SizeF(49.30591F, 23F);
             this.xrLabel15.StylePriority.UseTextAlignment = false;
-            this.xrLabel15.Text = "M�y d�c:";
+            this.xrLabel15.Text = "Máy đúc:";
             this.xrLabel15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleJustify;
             // 
             // xrPanel2
@@ -1184,7 +1184,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel7.SizeF = new System.Drawing.SizeF(50.54175F, 23F);
             this.xrLabel7.StylePriority.UseTextAlignment = false;
-            this.xrLabel7.Text = "Ca l�m vi?c:";
+            this.xrLabel7.Text = "Ca làm việc:";
             this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel6
@@ -1209,7 +1209,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel5.SizeF = new System.Drawing.SizeF(52.08337F, 23F);
             this.xrLabel5.StylePriority.UseTextAlignment = false;
-            this.xrLabel5.Text = "Ng�y do:";
+            this.xrLabel5.Text = "Ngày đo:";
             this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrTable8
@@ -1242,7 +1242,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell94.Font = new DevExpress.Drawing.DXFont("Times New Roman", 8F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell94.Name = "xrTableCell94";
             this.xrTableCell94.StylePriority.UseFont = false;
-            this.xrTableCell94.Text = "L� do do";
+            this.xrTableCell94.Text = "Lý do đo";
             this.xrTableCell94.Weight = 1D;
             // 
             // xrTableRow20
@@ -1561,7 +1561,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             this.xrTableCell70.Dpi = 100F;
             this.xrTableCell70.Name = "xrTableCell70";
-            this.xrTableCell70.Text = "Ng�y s?a d?i (Date)";
+            this.xrTableCell70.Text = "Ngày sửa đổi (Date)";
             this.xrTableCell70.Weight = 0.86657449386878183D;
             // 
             // xrTableCell71
@@ -1589,7 +1589,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             this.xrTableCell76.Dpi = 100F;
             this.xrTableCell76.Name = "xrTableCell76";
-            this.xrTableCell76.Text = "Ngu?i ph� duy?t (Approve by)";
+            this.xrTableCell76.Text = "Người phê duyệt (Approve by)";
             this.xrTableCell76.Weight = 0.91061154256362586D;
             // 
             // xrTableRow13
@@ -1839,7 +1839,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel3.SizeF = new System.Drawing.SizeF(146.1671F, 23F);
             this.xrLabel3.StylePriority.UseTextAlignment = false;
-            this.xrLabel3.Text = "S? qu?n l�:";
+            this.xrLabel3.Text = "Số quản lý:";
             this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
             // xrLabel2
@@ -1885,7 +1885,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell72.Font = new DevExpress.Drawing.DXFont("Times New Roman", 8F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell72.Name = "xrTableCell72";
             this.xrTableCell72.StylePriority.UseFont = false;
-            this.xrTableCell72.Text = "Th�ng tin s?n ph?m (Part infomation)";
+            this.xrTableCell72.Text = "Thông tin sản phẩm (Part infomation)";
             this.xrTableCell72.Weight = 4.8363095797025242D;
             // 
             // xrTableCell73
@@ -1894,7 +1894,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell73.Font = new DevExpress.Drawing.DXFont("Times New Roman", 8F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell73.Name = "xrTableCell73";
             this.xrTableCell73.StylePriority.UseFont = false;
-            this.xrTableCell73.Text = "Th�ng tin nguy�n v?t li?u (Material information)";
+            this.xrTableCell73.Text = "Thông tin nguyên vật liệu (Material information)";
             this.xrTableCell73.Weight = 9.1636904202974758D;
             // 
             // xrTableRow9
@@ -1922,28 +1922,28 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             this.xrTableCell28.Dpi = 100F;
             this.xrTableCell28.Name = "xrTableCell28";
-            this.xrTableCell28.Text = "�?i m�y (Model)";
+            this.xrTableCell28.Text = "Đời máy (Model)";
             this.xrTableCell28.Weight = 1.4501058138333836D;
             // 
             // xrTableCell29
             // 
             this.xrTableCell29.Dpi = 100F;
             this.xrTableCell29.Name = "xrTableCell29";
-            this.xrTableCell29.Text = "T�n s?n ph?m (Part name)";
+            this.xrTableCell29.Text = "Tên sản phẩm (Part name)";
             this.xrTableCell29.Weight = 1.4363910968487079D;
             // 
             // xrTableCell31
             // 
             this.xrTableCell31.Dpi = 100F;
             this.xrTableCell31.Name = "xrTableCell31";
-            this.xrTableCell31.Text = "M� s?n ph?m (Part no)";
+            this.xrTableCell31.Text = "Mã sản phẩm (Part no)";
             this.xrTableCell31.Weight = 0.95965693547175457D;
             // 
             // xrTableCell32
             // 
             this.xrTableCell32.Dpi = 100F;
             this.xrTableCell32.Name = "xrTableCell32";
-            this.xrTableCell32.Text = "S? khu�n (Die no)";
+            this.xrTableCell32.Text = "Số khuôn (Die no)";
             this.xrTableCell32.Weight = 0.49312503521259021D;
             // 
             // xrTableCell47
@@ -1957,21 +1957,21 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             this.xrTableCell33.Dpi = 100F;
             this.xrTableCell33.Name = "xrTableCell33";
-            this.xrTableCell33.Text = "Nh� cung c?p (Supplier)";
+            this.xrTableCell33.Text = "Nhà cung cấp (Supplier)";
             this.xrTableCell33.Weight = 0.92330639178936313D;
             // 
             // xrTableCell34
             // 
             this.xrTableCell34.Dpi = 100F;
             this.xrTableCell34.Name = "xrTableCell34";
-            this.xrTableCell34.Text = "Nh� s?n xu?t (Manufacture)";
+            this.xrTableCell34.Text = "Nhà sản xuất (Manufacture)";
             this.xrTableCell34.Weight = 0.97996755746694708D;
             // 
             // xrTableCell35
             // 
             this.xrTableCell35.Dpi = 100F;
             this.xrTableCell35.Name = "xrTableCell35";
-            this.xrTableCell35.Text = "T�n nh?a (Name)";
+            this.xrTableCell35.Text = "Tên nhựa (Name)";
             this.xrTableCell35.Weight = 1.4281727717472956D;
             // 
             // xrTableCell37
@@ -1985,28 +1985,28 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             this.xrTableCell39.Dpi = 100F;
             this.xrTableCell39.Name = "xrTableCell39";
-            this.xrTableCell39.Text = "M� m�u (Color no)";
+            this.xrTableCell39.Text = "Mã màu (Color no)";
             this.xrTableCell39.Weight = 0.9634722196138823D;
             // 
             // xrTableCell41
             // 
             this.xrTableCell41.Dpi = 100F;
             this.xrTableCell41.Name = "xrTableCell41";
-            this.xrTableCell41.Text = "T�n m�u (Color name)";
+            this.xrTableCell41.Text = "Tên màu (Color name)";
             this.xrTableCell41.Weight = 0.9743664081280049D;
             // 
             // xrTableCell42
             // 
             this.xrTableCell42.Dpi = 100F;
             this.xrTableCell42.Name = "xrTableCell42";
-            this.xrTableCell42.Text = "Nh?a t�i (Regrind)";
+            this.xrTableCell42.Text = "Nhựa tái (Regrind)";
             this.xrTableCell42.Weight = 0.92467440091646635D;
             // 
             // xrTableCell43
             // 
             this.xrTableCell43.Dpi = 100F;
             this.xrTableCell43.Name = "xrTableCell43";
-            this.xrTableCell43.Text = "C?p d? ch?ng ch�y (Certified)";
+            this.xrTableCell43.Text = "Cấp độ chống cháy (Certified)";
             this.xrTableCell43.Weight = 1D;
             // 
             // xrTableCell44
@@ -2060,7 +2060,7 @@ namespace QualityControlSystem_Ver2._0.Job
             queryParameter11.Value = new DevExpress.DataAccess.Expression("[Parameters.sokhuon]", typeof(string));
             storedProcQuery5.Parameters.Add(queryParameter10);
             storedProcQuery5.Parameters.Add(queryParameter11);
-            storedProcQuery5.StoredProcName = "SP_GET_PART_MATERIAL_INFO";
+            storedProcQuery5.StoredProcName = "sp_get_part_material_info";
             this.MATERIAL_DATA.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery5});
             this.MATERIAL_DATA.ResultSchemaSerializable = resources.GetString("MATERIAL_DATA.ResultSchemaSerializable");
@@ -2118,7 +2118,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialSupplier
             // 
-            this.MaterialSupplier.Condition = "Contains([changingpoint], \'Nh� cung c?p\')";
+            this.MaterialSupplier.Condition = "Contains([changingpoint], \'Nhà cung cấp\')";
             this.MaterialSupplier.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialSupplier.DataSource = this.MATERIAL_DATA;
             // 
@@ -2142,7 +2142,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialManualf
             // 
-            this.MaterialManualf.Condition = "Contains([changingpoint], \'Nh� s?n xu?t\')";
+            this.MaterialManualf.Condition = "Contains([changingpoint], \'Nhà sản xuất\')";
             this.MaterialManualf.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialManualf.DataSource = this.MATERIAL_DATA;
             // 
@@ -2166,7 +2166,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialTenNhua
             // 
-            this.MaterialTenNhua.Condition = "Contains([changingpoint], \'T�n nh?a\')";
+            this.MaterialTenNhua.Condition = "Contains([changingpoint], \'Tên nhựa\')";
             this.MaterialTenNhua.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialTenNhua.DataSource = this.MATERIAL_DATA;
             // 
@@ -2214,7 +2214,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialMaMau
             // 
-            this.MaterialMaMau.Condition = "Contains([changingpoint], \'M� m�u\')";
+            this.MaterialMaMau.Condition = "Contains([changingpoint], \'Mã màu\')";
             this.MaterialMaMau.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialMaMau.DataSource = this.MATERIAL_DATA;
             // 
@@ -2238,7 +2238,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialMauNhua
             // 
-            this.MaterialMauNhua.Condition = "Contains([changingpoint], \'M�u nh?a\')";
+            this.MaterialMauNhua.Condition = "Contains([changingpoint], \'Màu nhựa\')";
             this.MaterialMauNhua.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialMauNhua.DataSource = this.MATERIAL_DATA;
             // 
@@ -2262,7 +2262,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialTaiSD
             // 
-            this.MaterialTaiSD.Condition = "Contains([changingpoint], \'T�i SD\')";
+            this.MaterialTaiSD.Condition = "Contains([changingpoint], \'Tái SD\')";
             this.MaterialTaiSD.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialTaiSD.DataSource = this.MATERIAL_DATA;
             // 

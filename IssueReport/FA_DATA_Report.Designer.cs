@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.Job
+﻿namespace QualityControlSystem_Ver2._0.Job
 {
     partial class DataSheet_Report_Empty
     {
@@ -476,7 +476,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // ChangingpointFAtren
             // 
-            this.ChangingpointFAtren.Condition = "Contains([changingpoint], \'Gh tr�n FA\')";
+            this.ChangingpointFAtren.Condition = "Contains([changingpoint], \'Gh trên FA\')";
             // 
             // 
             // 
@@ -695,7 +695,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell9.StylePriority.UseFont = false;
             this.xrTableCell9.StylePriority.UseForeColor = false;
             this.xrTableCell9.StylePriority.UseTextAlignment = false;
-            this.xrTableCell9.Text = "Address (V? tr� b?n v?)";
+            this.xrTableCell9.Text = "Address (Vị trí b?n v?)";
             this.xrTableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell9.Weight = 6.5886937134866344D;
             // 
@@ -714,7 +714,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell11.StylePriority.UseFont = false;
             this.xrTableCell11.StylePriority.UseForeColor = false;
             this.xrTableCell11.StylePriority.UseTextAlignment = false;
-            this.xrTableCell11.Text = "SPECIFICATION (K�ch thu?c danh nghia)";
+            this.xrTableCell11.Text = "SPECIFICATION (Kích thước danh nghĩa)";
             this.xrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell11.Weight = 10.064076453381281D;
             // 
@@ -752,7 +752,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell15.StylePriority.UseFont = false;
             this.xrTableCell15.StylePriority.UseForeColor = false;
             this.xrTableCell15.StylePriority.UseTextAlignment = false;
-            this.xrTableCell15.Text = "UPPER LIMIT (Gi?i h?n tr�n)";
+            this.xrTableCell15.Text = "UPPER LIMIT (Giới hạn trên)";
             this.xrTableCell15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell15.Weight = 6.699994730314458D;
             // 
@@ -790,7 +790,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell19.StylePriority.UseFont = false;
             this.xrTableCell19.StylePriority.UseForeColor = false;
             this.xrTableCell19.StylePriority.UseTextAlignment = false;
-            this.xrTableCell19.Text = "POSITION (V? tr�)";
+            this.xrTableCell19.Text = "POSITION (Vị trí)";
             this.xrTableCell19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell19.Weight = 6.68119115158227D;
             // 
@@ -847,7 +847,7 @@ namespace QualityControlSystem_Ver2._0.Job
             this.xrTableCell25.StylePriority.UseFont = false;
             this.xrTableCell25.StylePriority.UseForeColor = false;
             this.xrTableCell25.StylePriority.UseTextAlignment = false;
-            this.xrTableCell25.Text = "Judg (��nh gi�)";
+            this.xrTableCell25.Text = "Judg (Đánh giá)";
             this.xrTableCell25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell25.Weight = 6.9545975968356117D;
             // 
@@ -962,14 +962,14 @@ namespace QualityControlSystem_Ver2._0.Job
             queryParameter6.Value = new DevExpress.DataAccess.Expression("[Parameters.sokhuon]", typeof(string));
             storedProcQuery3.Parameters.Add(queryParameter5);
             storedProcQuery3.Parameters.Add(queryParameter6);
-            storedProcQuery3.StoredProcName = "SP_GET_PART_MATERIAL_INFO";
+            storedProcQuery3.StoredProcName = "sp_get_part_material_info";
             this.MATERIAL_DATA.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery3});
             this.MATERIAL_DATA.ResultSchemaSerializable = resources.GetString("MATERIAL_DATA.ResultSchemaSerializable");
             // 
             // MaterialSupplier
             // 
-            this.MaterialSupplier.Condition = "Contains([changingpoint], \'Nh� cung c?p\')";
+            this.MaterialSupplier.Condition = "Contains([changingpoint], \'Nhà cung cấp\')";
             this.MaterialSupplier.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialSupplier.DataSource = this.MATERIAL_DATA;
             // 
@@ -982,7 +982,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialManualf
             // 
-            this.MaterialManualf.Condition = "Contains([changingpoint], \'Nh� s?n xu?t\')";
+            this.MaterialManualf.Condition = "Contains([changingpoint], \'Nhà sản xuất\')";
             this.MaterialManualf.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialManualf.DataSource = this.MATERIAL_DATA;
             // 
@@ -995,7 +995,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialTenNhua
             // 
-            this.MaterialTenNhua.Condition = "Contains([changingpoint], \'T�n nh?a\')";
+            this.MaterialTenNhua.Condition = "Contains([changingpoint], \'Tên nhựa\')";
             this.MaterialTenNhua.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialTenNhua.DataSource = this.MATERIAL_DATA;
             // 
@@ -1021,7 +1021,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialMaMau
             // 
-            this.MaterialMaMau.Condition = "Contains([changingpoint], \'M� m�u\')";
+            this.MaterialMaMau.Condition = "Contains([changingpoint], \'Mã màu\')";
             this.MaterialMaMau.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialMaMau.DataSource = this.MATERIAL_DATA;
             // 
@@ -1034,7 +1034,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialMauNhua
             // 
-            this.MaterialMauNhua.Condition = "Contains([changingpoint], \'M�u nh?a\')";
+            this.MaterialMauNhua.Condition = "Contains([changingpoint], \'Màu nhựa\')";
             this.MaterialMauNhua.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialMauNhua.DataSource = this.MATERIAL_DATA;
             // 
@@ -1047,7 +1047,7 @@ namespace QualityControlSystem_Ver2._0.Job
             // 
             // MaterialTaiSD
             // 
-            this.MaterialTaiSD.Condition = "Contains([changingpoint], \'T�i SD\')";
+            this.MaterialTaiSD.Condition = "Contains([changingpoint], \'Tái SD\')";
             this.MaterialTaiSD.DataMember = "SP_GET_PART_MATERIAL_INFO";
             this.MaterialTaiSD.DataSource = this.MATERIAL_DATA;
             // 

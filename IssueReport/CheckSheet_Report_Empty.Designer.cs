@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.IssueReport
+﻿namespace QualityControlSystem_Ver2._0.IssueReport
 {
     partial class CheckSheet_Report_Empty
     {
@@ -330,7 +330,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             queryParameter1.Type = typeof(DevExpress.DataAccess.Expression);
             queryParameter1.Value = new DevExpress.DataAccess.Expression("[Parameters.idchitiet]", typeof(int));
             storedProcQuery1.Parameters.Add(queryParameter1);
-            storedProcQuery1.StoredProcName = "SP_GET_CHI_TIET_KIEM_TRA";
+            storedProcQuery1.StoredProcName = "sp_get_chi_tiet_kiem_tra";
             this.DataChiTiet.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery1});
             this.DataChiTiet.ResultSchemaSerializable = resources.GetString("DataChiTiet.ResultSchemaSerializable");
@@ -382,7 +382,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell97.StylePriority.UseBorders = false;
             this.xrTableCell97.StylePriority.UseFont = false;
             this.xrTableCell97.StylePriority.UseTextAlignment = false;
-            this.xrTableCell97.Text = "�i?m ki?m tra chi ti?t (Detail Checking points)";
+            this.xrTableCell97.Text = "Điểm kiểm tra chi tiết (Detail Checking points)";
             this.xrTableCell97.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell97.Weight = 53.343915110647316D;
             // 
@@ -469,7 +469,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell31.StylePriority.UseFont = false;
             this.xrTableCell31.StylePriority.UseForeColor = false;
             this.xrTableCell31.StylePriority.UseTextAlignment = false;
-            this.xrTableCell31.Text = "Ghi ch� ( Comment)";
+            this.xrTableCell31.Text = "Ghi chú ( Comment)";
             this.xrTableCell31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell31.Weight = 20.101396213256027D;
             // 
@@ -508,7 +508,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.xrTableCell94.Dpi = 100F;
             this.xrTableCell94.Name = "xrTableCell94";
-            this.xrTableCell94.Text = "�i?m ki?m tra nhanh (Quick Checking points)";
+            this.xrTableCell94.Text = "Điểm kiểm tra nhanh (Quick Checking points)";
             this.xrTableCell94.Weight = 4D;
             // 
             // xrTableRow8
@@ -535,7 +535,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell8.Dpi = 100F;
             this.xrTableCell8.Multiline = true;
             this.xrTableCell8.Name = "xrTableCell8";
-            this.xrTableCell8.Text = "�i?m ki?m tra (Checking points)";
+            this.xrTableCell8.Text = "Điểm kiểm tra (Checking points)";
             this.xrTableCell8.Weight = 1.7600692483820324D;
             // 
             // xrTableCell15
@@ -550,7 +550,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.xrTableCell24.Dpi = 100F;
             this.xrTableCell24.Name = "xrTableCell24";
-            this.xrTableCell24.Text = "Ghi ch� (Comment)";
+            this.xrTableCell24.Text = "Ghi chú (Comment)";
             this.xrTableCell24.Weight = 1.5073059976341827D;
             // 
             // xrTableRow9
@@ -577,7 +577,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell40.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F);
             this.xrTableCell40.Name = "xrTableCell40";
             this.xrTableCell40.StylePriority.UseFont = false;
-            this.xrTableCell40.Text = "Thao t�c OP (operation)";
+            this.xrTableCell40.Text = "Thao tác OP (operation)";
             this.xrTableCell40.Weight = 1.7600692483820324D;
             // 
             // xrTableCell43
@@ -609,7 +609,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             queryParameter2.Type = typeof(DevExpress.DataAccess.Expression);
             queryParameter2.Value = new DevExpress.DataAccess.Expression("[Parameters.idchitiet]", typeof(int));
             storedProcQuery2.Parameters.Add(queryParameter2);
-            storedProcQuery2.StoredProcName = "SP_GET_DANH_SACH_KIEM_TRA";
+            storedProcQuery2.StoredProcName = "sp_get_danh_sach_kiem_tra";
             this.DanhSachChiTiet.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery2});
             this.DanhSachChiTiet.ResultSchemaSerializable = resources.GetString("DanhSachChiTiet.ResultSchemaSerializable");
@@ -648,7 +648,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell55.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F);
             this.xrTableCell55.Name = "xrTableCell55";
             this.xrTableCell55.StylePriority.UseFont = false;
-            this.xrTableCell55.Text = "Chi?u d? s?n ph?m v�o h?p (Direction of part when take into box)";
+            this.xrTableCell55.Text = "Chiều để sản phẩm vào hộp (Direction of part when take into box)";
             this.xrTableCell55.Weight = 1.7600692483820324D;
             // 
             // xrTableCell58
@@ -819,7 +819,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell92.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F);
             this.xrTableCell92.Name = "xrTableCell92";
             this.xrTableCell92.StylePriority.UseFont = false;
-            this.xrTableCell92.Text = "M�u s?n ph?m (Color of part)";
+            this.xrTableCell92.Text = "Màu sản phẩm (Color of part)";
             this.xrTableCell92.Weight = 1.7600692483820324D;
             // 
             // xrTableCell93
@@ -873,7 +873,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell34.Dpi = 100F;
             this.xrTableCell34.Name = "xrTableCell34";
             this.xrTableCell34.StylePriority.UseTextAlignment = false;
-            this.xrTableCell34.Text = "Th�ng tin s?n ph?m (Part Information)";
+            this.xrTableCell34.Text = "Thông tin sản phẩm (Part Information)";
             this.xrTableCell34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell34.Weight = 6D;
             // 
@@ -882,7 +882,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell61.Dpi = 100F;
             this.xrTableCell61.Name = "xrTableCell61";
             this.xrTableCell61.StylePriority.UseTextAlignment = false;
-            this.xrTableCell61.Text = "Th�ng tin nh?a (Material Information)";
+            this.xrTableCell61.Text = "Thông tin nhựa (Material Information)";
             this.xrTableCell61.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell61.Weight = 9D;
             // 
@@ -913,7 +913,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell21.Dpi = 100F;
             this.xrTableCell21.Multiline = true;
             this.xrTableCell21.Name = "xrTableCell21";
-            this.xrTableCell21.Text = "�?i m�y\r\n(Model)";
+            this.xrTableCell21.Text = "Đời máy\r\n(Model)";
             this.xrTableCell21.Weight = 1D;
             // 
             // xrTableCell22
@@ -921,7 +921,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell22.Dpi = 100F;
             this.xrTableCell22.Multiline = true;
             this.xrTableCell22.Name = "xrTableCell22";
-            this.xrTableCell22.Text = "M� s?n ph?m\r\n(Part no)";
+            this.xrTableCell22.Text = "Mã sản phẩm\r\n(Part no)";
             this.xrTableCell22.Weight = 1D;
             // 
             // xrTableCell23
@@ -929,7 +929,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell23.Dpi = 100F;
             this.xrTableCell23.Multiline = true;
             this.xrTableCell23.Name = "xrTableCell23";
-            this.xrTableCell23.Text = "T�n s?n ph?m\r\n(Part name)";
+            this.xrTableCell23.Text = "Tên sản phẩm\r\n(Part name)";
             this.xrTableCell23.Weight = 1D;
             // 
             // xrTableCell25
@@ -937,7 +937,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell25.Dpi = 100F;
             this.xrTableCell25.Multiline = true;
             this.xrTableCell25.Name = "xrTableCell25";
-            this.xrTableCell25.Text = "Khu�n\r\n(Die)";
+            this.xrTableCell25.Text = "Khuôn\r\n(Die)";
             this.xrTableCell25.Weight = 1D;
             // 
             // xrTableCell32
@@ -945,7 +945,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell32.Dpi = 100F;
             this.xrTableCell32.Multiline = true;
             this.xrTableCell32.Name = "xrTableCell32";
-            this.xrTableCell32.Text = "M�y d�c\r\n(Machine)";
+            this.xrTableCell32.Text = "Máy đúc\r\n(Machine)";
             this.xrTableCell32.Weight = 1D;
             // 
             // xrTableCell35
@@ -961,7 +961,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell38.Dpi = 100F;
             this.xrTableCell38.Multiline = true;
             this.xrTableCell38.Name = "xrTableCell38";
-            this.xrTableCell38.Text = "Nh� cung c?p\r\n(Supplier)";
+            this.xrTableCell38.Text = "Nhà cung cấp\r\n(Supplier)";
             this.xrTableCell38.Weight = 1D;
             // 
             // xrTableCell41
@@ -969,14 +969,14 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell41.Dpi = 100F;
             this.xrTableCell41.Multiline = true;
             this.xrTableCell41.Name = "xrTableCell41";
-            this.xrTableCell41.Text = "Nh� s?n xu?t\r\n(Manufacture)";
+            this.xrTableCell41.Text = "Nhà sản xuất\r\n(Manufacture)";
             this.xrTableCell41.Weight = 1D;
             // 
             // xrTableCell44
             // 
             this.xrTableCell44.Dpi = 100F;
             this.xrTableCell44.Name = "xrTableCell44";
-            this.xrTableCell44.Text = "T�n nh?a (Name)";
+            this.xrTableCell44.Text = "Tên nhựa (Name)";
             this.xrTableCell44.Weight = 1D;
             // 
             // xrTableCell47
@@ -990,28 +990,28 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.xrTableCell50.Dpi = 100F;
             this.xrTableCell50.Name = "xrTableCell50";
-            this.xrTableCell50.Text = "M� m�u (Color no)";
+            this.xrTableCell50.Text = "Mã màu (Color no)";
             this.xrTableCell50.Weight = 1D;
             // 
             // xrTableCell53
             // 
             this.xrTableCell53.Dpi = 100F;
             this.xrTableCell53.Name = "xrTableCell53";
-            this.xrTableCell53.Text = "T�n m�u (Color name)";
+            this.xrTableCell53.Text = "Tên màu (Color name)";
             this.xrTableCell53.Weight = 1D;
             // 
             // xrTableCell56
             // 
             this.xrTableCell56.Dpi = 100F;
             this.xrTableCell56.Name = "xrTableCell56";
-            this.xrTableCell56.Text = "Nh?a t�i (Regrind)";
+            this.xrTableCell56.Text = "Nhựa tái (Regrind)";
             this.xrTableCell56.Weight = 1D;
             // 
             // xrTableCell59
             // 
             this.xrTableCell59.Dpi = 100F;
             this.xrTableCell59.Name = "xrTableCell59";
-            this.xrTableCell59.Text = "C?p d? ch?ng ch�y (Certified)";
+            this.xrTableCell59.Text = "Cấp độ chống cháy (Certified)";
             this.xrTableCell59.Weight = 1D;
             // 
             // xrTableCell62
@@ -1066,7 +1066,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             queryParameter4.Value = new DevExpress.DataAccess.Expression("[Parameters.sokhuon]", typeof(string));
             storedProcQuery3.Parameters.Add(queryParameter3);
             storedProcQuery3.Parameters.Add(queryParameter4);
-            storedProcQuery3.StoredProcName = "SP_GET_PART_MATERIAL_INFO";
+            storedProcQuery3.StoredProcName = "sp_get_part_material_info";
             this.MaterialInfo.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery3});
             this.MaterialInfo.ResultSchemaSerializable = resources.GetString("MaterialInfo.ResultSchemaSerializable");
@@ -1117,7 +1117,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell36.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F);
             this.xrTableCell36.Name = "xrTableCell36";
             this.xrTableCell36.StylePriority.UseFont = false;
-            this.xrTableCell36.Text = "= 1 l?n/ ca l�m vi?c";
+            this.xrTableCell36.Text = "= 1 lần/ ca làm việc";
             this.xrTableCell36.Weight = 1D;
             // 
             // xrTableCell39
@@ -1317,7 +1317,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             queryParameter5.Type = typeof(DevExpress.DataAccess.Expression);
             queryParameter5.Value = new DevExpress.DataAccess.Expression("[Parameters.masp]", typeof(string));
             storedProcQuery4.Parameters.Add(queryParameter5);
-            storedProcQuery4.StoredProcName = "SP_GET_CHECK_SHEET";
+            storedProcQuery4.StoredProcName = "sp_get_check_sheet";
             this.CheckSheetInfo.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery4});
             this.CheckSheetInfo.ResultSchemaSerializable = resources.GetString("CheckSheetInfo.ResultSchemaSerializable");
@@ -1331,7 +1331,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel3.SizeF = new System.Drawing.SizeF(73.95831F, 23F);
             this.xrLabel3.StylePriority.UseBackColor = false;
-            this.xrLabel3.Text = "S? qu?n l�:";
+            this.xrLabel3.Text = "Số quản lý:";
             // 
             // xrLabel2
             // 
@@ -1364,7 +1364,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrLabel1.StyleName = "Title";
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.StylePriority.UseTextAlignment = false;
-            this.xrLabel1.Text = "QC APPEARANCE CHECK SHEET\r\nB?NG KI?M TRA NGO?I H�NH S?N PH?M";
+            this.xrLabel1.Text = "QC APPEARANCE CHECK SHEET\r\nBẢNG KIỂM TRA NGOẠI HÌNH SẢN PHẨM";
             this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // Title
@@ -1445,7 +1445,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrCheckBox1.SizeF = new System.Drawing.SizeF(125.8915F, 23F);
             this.xrCheckBox1.StylePriority.UseBackColor = false;
             this.xrCheckBox1.StylePriority.UseBorderColor = false;
-            this.xrCheckBox1.Text = "S? d?ng nh?a t�i";
+            this.xrCheckBox1.Text = "Sử dụng nhựa tái";
             this.xrCheckBox1.Visible = false;
             // 
             // xrTable6
@@ -1483,7 +1483,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell83.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell83.Name = "xrTableCell83";
             this.xrTableCell83.StylePriority.UseFont = false;
-            this.xrTableCell83.Text = "Ng�y ki?m tra";
+            this.xrTableCell83.Text = "Ngày kiểm tra";
             this.xrTableCell83.Weight = 1D;
             // 
             // xrTableCell84
@@ -1510,7 +1510,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell86.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell86.Name = "xrTableCell86";
             this.xrTableCell86.StylePriority.UseFont = false;
-            this.xrTableCell86.Text = "L� do";
+            this.xrTableCell86.Text = "Lý do";
             this.xrTableCell86.Weight = 1D;
             // 
             // xrTableRow16
@@ -1603,7 +1603,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell65.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell65.Name = "xrTableCell65";
             this.xrTableCell65.StylePriority.UseFont = false;
-            this.xrTableCell65.Text = "Ng�y s?a d?i (Revised date)";
+            this.xrTableCell65.Text = "Ngày sửa đổi (Revised date)";
             this.xrTableCell65.Weight = 0.9296670532226563D;
             // 
             // xrTableCell70
@@ -1631,7 +1631,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.xrTableCell81.Font = new DevExpress.Drawing.DXFont("Times New Roman", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrTableCell81.Name = "xrTableCell81";
             this.xrTableCell81.StylePriority.UseFont = false;
-            this.xrTableCell81.Text = "Ngu?i ph� duy?t (Approved by)";
+            this.xrTableCell81.Text = "Người phê duyệt (Approved by)";
             this.xrTableCell81.Weight = 1D;
             // 
             // xrTableRow14

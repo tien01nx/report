@@ -1279,7 +1279,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             storedProcQuery1.Parameters.Add(queryParameter2);
             storedProcQuery1.Parameters.Add(queryParameter3);
             storedProcQuery1.Parameters.Add(queryParameter4);
-            storedProcQuery1.StoredProcName = "SP_INSERT_DEMENSION_DATA_SUPPLIER";
+            storedProcQuery1.StoredProcName = "sp_insert_demension_data_supplier";
             this.ecndrwinfo.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery1});
             // 

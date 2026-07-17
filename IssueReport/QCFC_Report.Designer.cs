@@ -138,7 +138,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             queryParameter2.Type = typeof(string);
             storedProcQuery1.Parameters.Add(queryParameter1);
             storedProcQuery1.Parameters.Add(queryParameter2);
-            storedProcQuery1.StoredProcName = "SP_GET_PART_MATERIAL_INFO";
+            storedProcQuery1.StoredProcName = "sp_get_part_material_info";
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery1});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");

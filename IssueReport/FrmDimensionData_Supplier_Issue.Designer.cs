@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.IssueReport
+﻿namespace QualityControlSystem_Ver2._0.IssueReport
 {
     partial class FrmDimensionData_Supplier_Issue
     {
@@ -325,7 +325,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.myGridView2.FormatRules.Add(gridFormatRule1);
             this.myGridView2.FormatRules.Add(gridFormatRule2);
             this.myGridView2.GridControl = this.myGridView1;
-            this.myGridView2.GroupPanelText = "K�o c?t l�n d�y d? gom nh�m. CTR + F d? t�m ki?m...";
+            this.myGridView2.GroupPanelText = "Kéo cột lên đây để gom nhóm. CTR + F để tìm kiếm...";
             this.myGridView2.IndicatorWidth = 40;
             this.myGridView2.Name = "myGridView2";
             this.myGridView2.OptionsSelection.CheckBoxSelectorColumnWidth = 40;
@@ -377,7 +377,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.colposition.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colposition.AppearanceCell.Options.UseFont = true;
-            this.colposition.Caption = "V? tr�";
+            this.colposition.Caption = "Vị trí";
             this.colposition.ColumnEdit = this.repositoryItemMemoEdit2;
             this.colposition.FieldName = "position";
             this.colposition.Name = "colposition";

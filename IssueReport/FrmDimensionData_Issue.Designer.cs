@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.IssueReport
+﻿namespace QualityControlSystem_Ver2._0.IssueReport
 {
     partial class FrmDimensionData_Issue
     {
@@ -165,7 +165,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             // colketquadanhgia
             // 
-            this.colketquadanhgia.Caption = "KQ d�nh gi�";
+            this.colketquadanhgia.Caption = "KQ đánh giá";
             this.colketquadanhgia.FieldName = "ketquadanhgia";
             this.colketquadanhgia.Name = "colketquadanhgia";
             this.colketquadanhgia.OptionsColumn.AllowEdit = false;
@@ -410,7 +410,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.myGridView2.FormatRules.Add(gridFormatRule1);
             this.myGridView2.FormatRules.Add(gridFormatRule2);
             this.myGridView2.GridControl = this.myGridView1;
-            this.myGridView2.GroupPanelText = "K�o c?t l�n d�y d? gom nh�m. CTR + F d? t�m ki?m...";
+            this.myGridView2.GroupPanelText = "Kéo cột lên đây để gom nhóm. CTR + F để tìm kiếm...";
             this.myGridView2.IndicatorWidth = 40;
             this.myGridView2.Name = "myGridView2";
             this.myGridView2.OptionsSelection.CheckBoxSelectorColumnWidth = 40;
@@ -445,7 +445,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             // colngayupdate
             // 
-            this.colngayupdate.Caption = "Ng�y/ Gi? do";
+            this.colngayupdate.Caption = "Ngày/ Giờ đo";
             this.colngayupdate.FieldName = "ngayktra";
             this.colngayupdate.Name = "colngayupdate";
             this.colngayupdate.Width = 94;
@@ -459,7 +459,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             // colmayduc
             // 
-            this.colmayduc.Caption = "M�y";
+            this.colmayduc.Caption = "Máy";
             this.colmayduc.FieldName = "mayduc";
             this.colmayduc.Name = "colmayduc";
             this.colmayduc.Width = 42;
@@ -468,7 +468,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.colmasp.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colmasp.AppearanceCell.Options.UseFont = true;
-            this.colmasp.Caption = "M� SP";
+            this.colmasp.Caption = "Mã SP";
             this.colmasp.FieldName = "masp";
             this.colmasp.Name = "colmasp";
             // 
@@ -476,7 +476,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.coltensp.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Italic);
             this.coltensp.AppearanceCell.Options.UseFont = true;
-            this.coltensp.Caption = "T�n SP";
+            this.coltensp.Caption = "Tên SP";
             this.coltensp.FieldName = "tensp";
             this.coltensp.Name = "coltensp";
             // 
@@ -484,7 +484,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.colsokhuon.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colsokhuon.AppearanceCell.Options.UseFont = true;
-            this.colsokhuon.Caption = "Khu�n";
+            this.colsokhuon.Caption = "Khuôn";
             this.colsokhuon.FieldName = "sokhuon";
             this.colsokhuon.Name = "colsokhuon";
             this.colsokhuon.Width = 46;
@@ -493,7 +493,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.colhinhthuc.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Italic);
             this.colhinhthuc.AppearanceCell.Options.UseFont = true;
-            this.colhinhthuc.Caption = "H�nh th?c";
+            this.colhinhthuc.Caption = "Hình thức";
             this.colhinhthuc.FieldName = "hinhthuc";
             this.colhinhthuc.Name = "colhinhthuc";
             this.colhinhthuc.OptionsColumn.AllowEdit = false;
@@ -517,7 +517,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             this.colvitri.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colvitri.AppearanceCell.Options.UseFont = true;
-            this.colvitri.Caption = "V? tr�";
+            this.colvitri.Caption = "Vị trí";
             this.colvitri.ColumnEdit = this.repositoryItemMemoEdit1;
             this.colvitri.FieldName = "vitri";
             this.colvitri.Name = "colvitri";
@@ -546,7 +546,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             // colgioihantren
             // 
-            this.colgioihantren.Caption = "GH tr�n";
+            this.colgioihantren.Caption = "GH trên";
             this.colgioihantren.FieldName = "gioihantren";
             this.colgioihantren.Name = "colgioihantren";
             this.colgioihantren.OptionsColumn.AllowEdit = false;
@@ -576,7 +576,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             // 
             // colgioihantrenfa
             // 
-            this.colgioihantrenfa.Caption = "GH tr�n FA";
+            this.colgioihantrenfa.Caption = "GH trên FA";
             this.colgioihantrenfa.FieldName = "gioihantrenfa";
             this.colgioihantrenfa.Name = "colgioihantrenfa";
             this.colgioihantrenfa.OptionsColumn.AllowEdit = false;
@@ -762,7 +762,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 361);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(204, 24);
-            this.layoutControlItem3.Text = "M�y d�c:";
+            this.layoutControlItem3.Text = "Máy đúc:";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(82, 13);
             // 
             // layoutControlItem4
@@ -773,7 +773,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.layoutControlItem4.Location = new System.Drawing.Point(204, 361);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(147, 24);
-            this.layoutControlItem4.Text = "Ng�y gi? do:";
+            this.layoutControlItem4.Text = "Ngày giờ đo:";
             this.layoutControlItem4.TextSize = new System.Drawing.Size(82, 13);
             // 
             // layoutControlItem5
@@ -808,7 +808,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 385);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(147, 26);
-            this.layoutControlItem6.Text = "M� s?n ph?m:";
+            this.layoutControlItem6.Text = "Mã sản phẩm:";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(82, 13);
             // 
             // layoutControlItem7
@@ -819,7 +819,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.layoutControlItem7.Location = new System.Drawing.Point(204, 385);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(147, 26);
-            this.layoutControlItem7.Text = "T�n s?n ph?m:";
+            this.layoutControlItem7.Text = "Tên sản phẩm:";
             this.layoutControlItem7.TextSize = new System.Drawing.Size(82, 13);
             // 
             // layoutControlItem8
@@ -888,7 +888,7 @@ namespace QualityControlSystem_Ver2._0.IssueReport
             this.layoutControlItem12.Location = new System.Drawing.Point(689, 387);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(208, 24);
-            this.layoutControlItem12.Text = "T�n:";
+            this.layoutControlItem12.Text = "Tên:";
             this.layoutControlItem12.TextSize = new System.Drawing.Size(82, 13);
             // 
             // FrmDimensionData_Issue

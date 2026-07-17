@@ -1,4 +1,4 @@
-namespace QualityControlSystem_Ver2._0.Document
+﻿namespace QualityControlSystem_Ver2._0.Document
 {
     partial class FrmDimensionData
     {
@@ -213,7 +213,7 @@ namespace QualityControlSystem_Ver2._0.Document
             this.myGridView2.FormatRules.Add(gridFormatRule1);
             this.myGridView2.FormatRules.Add(gridFormatRule2);
             this.myGridView2.GridControl = this.myGridView1;
-            this.myGridView2.GroupPanelText = "K�o c?t l�n d�y d? gom nh�m. CTR + F d? t�m ki?m...";
+            this.myGridView2.GroupPanelText = "Kéo cột lên đây để gom nhóm. CTR + F để tìm kiếm...";
             this.myGridView2.IndicatorWidth = 40;
             this.myGridView2.Name = "myGridView2";
             this.myGridView2.OptionsSelection.CheckBoxSelectorColumnWidth = 40;
@@ -235,7 +235,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             this.colngaysx.AppearanceCell.ForeColor = System.Drawing.Color.Blue;
             this.colngaysx.AppearanceCell.Options.UseForeColor = true;
-            this.colngaysx.Caption = "Ng�y SX";
+            this.colngaysx.Caption = "Ngày SX";
             this.colngaysx.DisplayFormat.FormatString = "dd-MM-yyyy";
             this.colngaysx.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.colngaysx.FieldName = "ngaysx";
@@ -275,7 +275,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             this.colmasp.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colmasp.AppearanceCell.Options.UseFont = true;
-            this.colmasp.Caption = "M� SP";
+            this.colmasp.Caption = "Mã SP";
             this.colmasp.FieldName = "masp";
             this.colmasp.Name = "colmasp";
             this.colmasp.OptionsColumn.AllowEdit = false;
@@ -286,7 +286,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             this.coltensp.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Italic);
             this.coltensp.AppearanceCell.Options.UseFont = true;
-            this.coltensp.Caption = "T�n SP";
+            this.coltensp.Caption = "Tên SP";
             this.coltensp.FieldName = "tensp";
             this.coltensp.Name = "coltensp";
             this.coltensp.OptionsColumn.AllowEdit = false;
@@ -298,7 +298,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             this.colsokhuon.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.colsokhuon.AppearanceCell.Options.UseFont = true;
-            this.colsokhuon.Caption = "Khu�n";
+            this.colsokhuon.Caption = "Khuôn";
             this.colsokhuon.FieldName = "sokhuon";
             this.colsokhuon.Name = "colsokhuon";
             this.colsokhuon.OptionsColumn.AllowEdit = false;
@@ -310,7 +310,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             this.collydodo.AppearanceCell.BackColor = System.Drawing.Color.Yellow;
             this.collydodo.AppearanceCell.Options.UseBackColor = true;
-            this.collydodo.Caption = "L� do do";
+            this.collydodo.Caption = "Lý do đo";
             this.collydodo.FieldName = "lydodo";
             this.collydodo.Name = "collydodo";
             this.collydodo.OptionsColumn.AllowEdit = false;
@@ -356,7 +356,7 @@ namespace QualityControlSystem_Ver2._0.Document
             // 
             // colngayupdate
             // 
-            this.colngayupdate.Caption = "Ng�y update";
+            this.colngayupdate.Caption = "Ngày update";
             this.colngayupdate.FieldName = "ngayupdate";
             this.colngayupdate.Name = "colngayupdate";
             this.colngayupdate.Visible = true;
@@ -438,7 +438,7 @@ namespace QualityControlSystem_Ver2._0.Document
             this.simpleButton3.Size = new System.Drawing.Size(26, 22);
             this.simpleButton3.StyleController = this.layoutControl1;
             this.simpleButton3.TabIndex = 28;
-            this.simpleButton3.ToolTip = "�?t s? trang";
+            this.simpleButton3.ToolTip = "Đặt số trang";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // spinEdit1
