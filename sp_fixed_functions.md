@@ -267,3 +267,20 @@ $$;
 | `loaikichthuoc` | character varying(50) |
 | `diffgh` | double precision |
 | `diffghfa` | double precision |
+
+
+
+name: Main Config
+version: 1.0.0
+schema: v1
+models:
+  - name: gpt-5.4-mini
+    provider: openai
+    model: gpt-5.4-mini
+    apiBase: https://sv.devquote.shop/v1
+    apiKey: sk-
+    roles:
+      - chat
+      - edit
+      - apply
+      - autocomplete
